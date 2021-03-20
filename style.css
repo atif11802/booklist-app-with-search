@@ -1,0 +1,35 @@
+.search{
+    margin-left: 930px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+
+}
+.search-results{
+    background-color:white;
+    margin-left: 930px;
+    width: 250px;
+    color:black;
+
+}
+.search-results li{
+    list-style-type:none;
+}
+@media all and (max-device-width:800px){
+    .search{
+        margin-left:226px;
+    
+        width: 250px;
+    
+    }
+}
+
+@media all and (max-device-width:420px){
+    .search{
+        margin-left:74px;
+    
+        width: 250px;
+    
+    }
+}
